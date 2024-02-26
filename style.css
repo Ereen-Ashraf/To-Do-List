@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-top: 20px;
+}
+#Form{
+    background-color: rgb(178, 175, 175);
+    padding: 25px;
+    width: 32em;
+    border-radius: 8px;
+    margin: auto;
+}
+.container .input{
+    width: 25em;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+}
+.container .input:focus{
+    outline: none;
+}
+.container .add{
+    padding: 10px 8px;
+    border-radius: 7px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(226, 43, 125);
+}
+
+.container .tasks{
+    padding: 25px;
+    background-color: rgb(178, 175, 175);
+    width: 32em;
+    border-radius: 8px;
+    margin:20px auto;
+}
+
+.tasks .container_div{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: white;
+    width: 31em;
+    font-size:15px;
+    font-weight:bold; 
+    padding:7px 10px;
+    margin-top:5px; 
+    border-radius:7px;
+}
+
+.tasks .create_span{
+    text-wrap: balance;
+    word-wrap: break-word;
+    width: 25em;
+}
+
+.tasks .create_btn{
+    background-color:rgb(226, 43, 125);
+    color:white;
+    font-weight:bold;
+    padding: 5px;
+    height: 2em;
+    border-radius:7px; 
+    border:none;
+}
+
+
+
+
+@media (min-width:481px) and (max-width:768px) {
+    #Form{
+        padding: 22px;
+        width: 29em;
+    }
+
+    .container .input{
+        width: 22em;
+    }
+
+    .container .tasks{
+        padding: 22px;
+        width: 29em;
+    }
+
+    .tasks .container_div{
+        width: 28em;
+    }
+    
+    .tasks .create_span{
+        width: 22em;
+    }
+
+}
+
+@media (max-width:480px) {
+    #Form{
+        padding: 17px 12px;
+        width: 26em;
+    }
+
+    .container .input{
+        width: 20em;
+    }
+
+    .container .tasks{
+        padding: 17px 12px;
+        width: 26em;
+    }
+
+    .tasks .container_div{
+        width: 26em;
+    }
+    
+    .tasks .create_span{
+        width: 20em;
+    }
+
+}
+
+
+
+
